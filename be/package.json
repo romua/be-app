@@ -6,8 +6,8 @@
   "scripts": {
     "build": "webpack --config webpack.config.js --progress",
     "build:dev": "webpack --config webpack.config.js --watch",
-    "start:dev": "nodemon ./dist/app.js",
-    "start:prod": "pm2 start ./dist/app.js",
+    "start:dev": "nodemon ./../dist/app.js",
+    "start:prod": "pm2 start ./../dist/app.js",
     "prod": "npm run build && npm run start:prod"
   },
   "author": "romua",

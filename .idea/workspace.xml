@@ -2,8 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a770dfa9-3ad3-4d1e-8bed-be8324f04da5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/be/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hooks/3rdpartylicenses.txt" beforeDir="false" afterPath="$PROJECT_DIR$/fe/hooks/3rdpartylicenses.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hooks/4-es2015.6ddc935b14b6a1296845.js" beforeDir="false" afterPath="$PROJECT_DIR$/fe/hooks/4-es2015.6ddc935b14b6a1296845.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hooks/4-es5.d9a56e8cb8ce8ff728f3.js" beforeDir="false" afterPath="$PROJECT_DIR$/fe/hooks/4-es5.d9a56e8cb8ce8ff728f3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hooks/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/fe/hooks/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hooks/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/fe/hooks/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hooks/main-es2015.b1245aa9f069f9227cce.js" beforeDir="false" afterPath="$PROJECT_DIR$/fe/hooks/main-es2015.b1245aa9f069f9227cce.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hooks/main-es5.f5d674baa144f8873632.js" beforeDir="false" afterPath="$PROJECT_DIR$/fe/hooks/main-es5.f5d674baa144f8873632.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hooks/polyfills-es2015.27661dfa98f6332c27dc.js" beforeDir="false" afterPath="$PROJECT_DIR$/fe/hooks/polyfills-es2015.27661dfa98f6332c27dc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hooks/polyfills-es5.405730e5ac8f727bd7d7.js" beforeDir="false" afterPath="$PROJECT_DIR$/fe/hooks/polyfills-es5.405730e5ac8f727bd7d7.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hooks/runtime-es2015.dd3292068e5297a1dfd5.js" beforeDir="false" afterPath="$PROJECT_DIR$/fe/hooks/runtime-es2015.dd3292068e5297a1dfd5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hooks/runtime-es5.2d41d5c9419b974586bf.js" beforeDir="false" afterPath="$PROJECT_DIR$/fe/hooks/runtime-es5.2d41d5c9419b974586bf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hooks/stats-es2015.json" beforeDir="false" afterPath="$PROJECT_DIR$/fe/hooks/stats-es2015.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hooks/stats-es5.json" beforeDir="false" afterPath="$PROJECT_DIR$/fe/hooks/stats-es5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hooks/styles.1687e9b7ca81142d0f41.css" beforeDir="false" afterPath="$PROJECT_DIR$/fe/hooks/styles.1687e9b7ca81142d0f41.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/be/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/be/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/be/src/app.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/controllers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/be/src/controllers/controllers.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/user.ts" beforeDir="false" afterPath="$PROJECT_DIR$/be/src/controllers/user.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helpers/helpers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/be/src/helpers/helpers.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/middlewares/errorHandler.ts" beforeDir="false" afterPath="$PROJECT_DIR$/be/src/middlewares/errorHandler.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/middlewares/logger.ts" beforeDir="false" afterPath="$PROJECT_DIR$/be/src/middlewares/logger.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/middlewares/middlewares.ts" beforeDir="false" afterPath="$PROJECT_DIR$/be/src/middlewares/middlewares.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/middlewares/requestTime.ts" beforeDir="false" afterPath="$PROJECT_DIR$/be/src/middlewares/requestTime.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/public.ts" beforeDir="false" afterPath="$PROJECT_DIR$/be/src/public/public.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/tests.ts" beforeDir="false" afterPath="$PROJECT_DIR$/be/src/tests/tests.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/views.ts" beforeDir="false" afterPath="$PROJECT_DIR$/be/src/views/views.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/be/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/be/webpack.config.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -15,21 +45,78 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
+        <entry file="file://$PROJECT_DIR$/be/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/be/tsconfig.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/be/src/app.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="e#51#80#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/public/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dist/.dockerignore">
+        <entry file="file://$PROJECT_DIR$/fe/hooks/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.dockerignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/be/webpack.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -43,8 +130,14 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>fe/hooks/</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -62,6 +155,12 @@
         <option value="$PROJECT_DIR$/tsconfig.json" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/dist/.dockerignore" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/be/webpack.config.js" />
+        <option value="$PROJECT_DIR$/be/tsconfig.json" />
+        <option value="$PROJECT_DIR$/be/package.json" />
+        <option value="$PROJECT_DIR$/dist/public/index.html" />
+        <option value="$PROJECT_DIR$/fe/hooks/index.html" />
       </list>
     </option>
   </component>
@@ -77,6 +176,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -87,13 +187,34 @@
             <path>
               <item name="backend" type="b2602c69:ProjectViewProjectNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="be" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
               <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="fe" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="fe" type="462c0819:PsiDirectoryNode" />
+              <item name="hooks" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -103,10 +224,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="C:\Users\rchap\WebstormProjects\TEST\backend\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="C:\Users\rchap\WebstormProjects\TEST\backend\be\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rchap\WebstormProjects\TEST\backend" />
       <recent name="C:\Users\rchap\WebstormProjects\TEST\backend\fe" />
       <recent name="C:\Users\rchap\WebstormProjects\TEST\backend\be" />
       <recent name="C:\Users\rchap\WebstormProjects\TEST\backend\dist" />
@@ -136,16 +258,26 @@
       <updated>1561558886264</updated>
       <workItem from="1561558887428" duration="2128000" />
       <workItem from="1561971201923" duration="12891000" />
+      <workItem from="1562063728963" duration="1776000" />
     </task>
+    <task id="LOCAL-00001" summary="add .dockerignore">
+      <created>1562063815184</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1562063815185</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15019000" />
+    <option name="totallyTimeSpent" value="16795000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -158,7 +290,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49947312" visible="true" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49947312" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50052685" side_tool="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Messages" order="12" />
@@ -170,8 +302,12 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add .dockerignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="add .dockerignore" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/middlewares/requestTime.ts">
+    <entry file="file://$PROJECT_DIR$/be/src/middlewares/requestTime.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
@@ -185,16 +321,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/be/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="50" column="3" selection-start-line="50" selection-start-column="3" selection-end-line="50" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/be/app.js" />
+    <entry file="file://$PROJECT_DIR$/dist/webpack.config.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/ts-loader/dist/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -215,11 +343,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/bundle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16727" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/bundle.js" />
     <entry file="file://$PROJECT_DIR$/dist/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -227,42 +351,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/middlewares/logger.ts">
+    <entry file="file://$PROJECT_DIR$/be/src/middlewares/logger.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllers/user.ts">
+    <entry file="file://$PROJECT_DIR$/be/src/controllers/user.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllers/controllers.ts">
+    <entry file="file://$PROJECT_DIR$/be/src/controllers/controllers.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/middlewares/errorHandler.ts">
+    <entry file="file://$PROJECT_DIR$/be/src/middlewares/errorHandler.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/middlewares/middlewares.ts">
+    <entry file="file://$PROJECT_DIR$/be/src/middlewares/middlewares.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
@@ -272,17 +389,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#52#80#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/be/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
@@ -290,27 +397,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tsconfig.json">
+    <entry file="file://$PROJECT_DIR$/be/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.dockerignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/be/tsconfig.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/be/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        <state relative-caret-position="323">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/.dockerignore">
+    <entry file="file://$PROJECT_DIR$/be/src/app.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="289">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#51#80#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fe/hooks/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
