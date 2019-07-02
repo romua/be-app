@@ -10,7 +10,7 @@
     "start:prod": "pm2 start ./dist/app.js",
     "prod": "npm run build && npm run start:prod"
   },
-  "author": "",
+  "author": "romua",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
