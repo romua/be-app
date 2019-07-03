@@ -29,7 +29,7 @@ app.get('*', (req: express.Request, res: express.Response) => {
 });
 
 // Listen on provided port, on all network interfaces.
-app.listen(4200, () => {
+app.listen(app.get('port'), () => {
   console.log(('App is running at http://localhost:%d in %s mode'), app.get('port'), app.get('env'));
   console.log('__dirname', path.resolve(__dirname));
 });
