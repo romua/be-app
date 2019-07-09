@@ -27,7 +27,7 @@ jobs:
             - ./node_modules
       - run: # run tests
           name: run-lint-and-tests
-          command: npm run check
+          command: npm run fe:check
 #      - store_artifacts:
 #          path: coverage
 #      - run: # run coverage report
