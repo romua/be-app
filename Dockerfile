@@ -2,11 +2,11 @@ FROM node:10-alpine
 
 WORKDIR /app
 
-COPY be /app/be
+COPY . /app
 
-COPY fe /app/fe
+RUN ls -la
 
-RUN npm install pm2 -g && cd be/ && npm install && npm run build:prod
+RUN npm install pm2 -g && cd be/ && npm install
 
 EXPOSE 8080
 
