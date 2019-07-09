@@ -3,7 +3,7 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin/dist/clean-webpack-
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
-  entry: './src/app.ts',
+  entry: './be/src/app.ts',
   output: {
     filename: 'app.js',
     path: path.resolve(__dirname, './../dist')
@@ -11,7 +11,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new CopyWebpackPlugin([
-      { from: './../fe/hooks', to: 'public' },
+      { from: path.resolve(__dirname, './../dist-fe/hooks'), to: 'public' },
     ])
   ],
   target: 'node',

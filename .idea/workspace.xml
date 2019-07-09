@@ -1,39 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a770dfa9-3ad3-4d1e-8bed-be8324f04da5" name="Default Changelist" comment="">
+    <list default="true" id="a770dfa9-3ad3-4d1e-8bed-be8324f04da5" name="Default Changelist" comment="merge two app, fix tests, fix sonar,">
+      <change afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/browserslist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/cypress.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/cypress/fixtures/example.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/cypress/integration/navigation.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/cypress/plugins/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/cypress/support/commands.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/cypress/support/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/jest.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/pre-commit.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/src/_settings.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/src/app/app-container/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/src/app/app-container/app.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/src/app/app-container/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/src/app/app-container/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/src/app/core/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/src/app/core/components/content/content.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/src/app/core/components/content/content.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/src/app/core/components/content/content.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/src/app/core/components/content/content.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/src/app/core/components/dashboard/dashboard.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/src/app/core/components/dashboard/dashboard.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/src/app/core/components/dashboard/dashboard.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/src/app/core/components/dashboard/dashboard.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/src/app/core/components/dashboard/settings-group/settings-group.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/src/app/core/components/dashboard/settings-group/settings-group.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/src/app/core/components/dashboard/settings-group/settings-group.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/src/app/core/components/dashboard/settings-group/settings-group.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/src/app/core/components/header/header.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/src/app/core/components/header/header.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/src/app/core/components/header/header.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/src/app/core/components/header/header.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/src/app/core/components/home/home.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/src/app/core/components/home/home.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/src/app/core/components/home/home.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/src/app/core/components/home/home.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/src/app/core/core.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/src/app/core/services/theme/theme.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/src/app/core/services/theme/theme.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/src/app/employees/employees-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/src/app/employees/employees.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/src/app/employees/employees/employee/employee.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/src/app/employees/employees/employee/employee.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/src/app/employees/employees/employee/employee.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/src/app/employees/employees/employee/employee.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/src/app/employees/employees/employees.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/src/app/employees/employees/employees.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/src/app/employees/employees/employees.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/src/app/employees/employees/employees.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/src/app/employees/models/models.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/src/app/employees/pipes/label/label.pipe.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/src/app/employees/pipes/label/label.pipe.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/src/app/employees/services/employees-store/employees-store.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/src/app/employees/services/employees-store/employees-store.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/src/app/employees/services/employees/employees.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/src/app/employees/services/employees/employees.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/src/app/shared/components/switch/switch.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/src/app/shared/components/switch/switch.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/src/app/shared/components/switch/switch.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/src/app/shared/components/switch/switch.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/src/app/shared/pipes/dash/dash.pipe.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/src/app/shared/pipes/dash/dash.pipe.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/src/app/shared/shared.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/src/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/test-report.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/tslint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sonar-project.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/be/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hooks/3rdpartylicenses.txt" beforeDir="false" afterPath="$PROJECT_DIR$/fe/hooks/3rdpartylicenses.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hooks/4-es2015.6ddc935b14b6a1296845.js" beforeDir="false" afterPath="$PROJECT_DIR$/fe/hooks/4-es2015.6ddc935b14b6a1296845.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hooks/4-es5.d9a56e8cb8ce8ff728f3.js" beforeDir="false" afterPath="$PROJECT_DIR$/fe/hooks/4-es5.d9a56e8cb8ce8ff728f3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hooks/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/fe/hooks/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hooks/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/fe/hooks/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hooks/main-es2015.b1245aa9f069f9227cce.js" beforeDir="false" afterPath="$PROJECT_DIR$/fe/hooks/main-es2015.b1245aa9f069f9227cce.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hooks/main-es5.f5d674baa144f8873632.js" beforeDir="false" afterPath="$PROJECT_DIR$/fe/hooks/main-es5.f5d674baa144f8873632.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hooks/polyfills-es2015.27661dfa98f6332c27dc.js" beforeDir="false" afterPath="$PROJECT_DIR$/fe/hooks/polyfills-es2015.27661dfa98f6332c27dc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hooks/polyfills-es5.405730e5ac8f727bd7d7.js" beforeDir="false" afterPath="$PROJECT_DIR$/fe/hooks/polyfills-es5.405730e5ac8f727bd7d7.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hooks/runtime-es2015.dd3292068e5297a1dfd5.js" beforeDir="false" afterPath="$PROJECT_DIR$/fe/hooks/runtime-es2015.dd3292068e5297a1dfd5.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hooks/runtime-es5.2d41d5c9419b974586bf.js" beforeDir="false" afterPath="$PROJECT_DIR$/fe/hooks/runtime-es5.2d41d5c9419b974586bf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hooks/stats-es2015.json" beforeDir="false" afterPath="$PROJECT_DIR$/fe/hooks/stats-es2015.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hooks/stats-es5.json" beforeDir="false" afterPath="$PROJECT_DIR$/fe/hooks/stats-es5.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hooks/styles.1687e9b7ca81142d0f41.css" beforeDir="false" afterPath="$PROJECT_DIR$/fe/hooks/styles.1687e9b7ca81142d0f41.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/be/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/be/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/be/src/app.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/controllers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/be/src/controllers/controllers.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/user.ts" beforeDir="false" afterPath="$PROJECT_DIR$/be/src/controllers/user.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helpers/helpers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/be/src/helpers/helpers.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/middlewares/errorHandler.ts" beforeDir="false" afterPath="$PROJECT_DIR$/be/src/middlewares/errorHandler.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/middlewares/logger.ts" beforeDir="false" afterPath="$PROJECT_DIR$/be/src/middlewares/logger.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/middlewares/middlewares.ts" beforeDir="false" afterPath="$PROJECT_DIR$/be/src/middlewares/middlewares.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/middlewares/requestTime.ts" beforeDir="false" afterPath="$PROJECT_DIR$/be/src/middlewares/requestTime.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/public/public.ts" beforeDir="false" afterPath="$PROJECT_DIR$/be/src/public/public.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/tests.ts" beforeDir="false" afterPath="$PROJECT_DIR$/be/src/tests/tests.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/views.ts" beforeDir="false" afterPath="$PROJECT_DIR$/be/src/views/views.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/be/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/be/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/be/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/be/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/be/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/be/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fe/hooks/3rdpartylicenses.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fe/hooks/4-es2015.6ddc935b14b6a1296845.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fe/hooks/4-es5.d9a56e8cb8ce8ff728f3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fe/hooks/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/fe/src/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fe/hooks/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fe/hooks/main-es2015.b1245aa9f069f9227cce.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fe/hooks/main-es5.f5d674baa144f8873632.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fe/hooks/polyfills-es2015.27661dfa98f6332c27dc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fe/hooks/polyfills-es5.405730e5ac8f727bd7d7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fe/hooks/runtime-es2015.dd3292068e5297a1dfd5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fe/hooks/runtime-es5.2d41d5c9419b974586bf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fe/hooks/stats-es2015.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fe/hooks/stats-es5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fe/hooks/styles.1687e9b7ca81142d0f41.css" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -47,76 +116,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/be/package.json">
+        <entry file="file://$PROJECT_DIR$/be/webpack.config.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/be/tsconfig.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/be/src/app.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
-              <folding>
-                <element signature="e#51#80#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dist/public/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/fe/hooks/index.html">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="-522">
+              <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/sonar-project.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="221">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.dockerignore">
+        <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/be/webpack.config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+            <state relative-caret-position="510">
+              <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -133,7 +163,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>fe/hooks/</find>
+      <find>src</find>
     </findStrings>
+    <replaceStrings>
+      <replace>./fe/src</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -153,14 +187,25 @@
         <option value="$PROJECT_DIR$/src/middlewares/middlewares.ts" />
         <option value="$PROJECT_DIR$/src/app.ts" />
         <option value="$PROJECT_DIR$/tsconfig.json" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/dist/.dockerignore" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/be/webpack.config.js" />
         <option value="$PROJECT_DIR$/be/tsconfig.json" />
         <option value="$PROJECT_DIR$/be/package.json" />
         <option value="$PROJECT_DIR$/dist/public/index.html" />
         <option value="$PROJECT_DIR$/fe/hooks/index.html" />
+        <option value="$PROJECT_DIR$/fe/sonar-project.properties" />
+        <option value="$PROJECT_DIR$/angular.json" />
+        <option value="$PROJECT_DIR$/fe/src/app/shared/components/switch/switch.component.html" />
+        <option value="$PROJECT_DIR$/fe/tsconfig.json" />
+        <option value="$PROJECT_DIR$/fe/src/app/core/components/content/content.component.scss" />
+        <option value="$PROJECT_DIR$/fe/src/app/core/components/header/header.component.scss" />
+        <option value="$PROJECT_DIR$/fe/src/app/shared/components/switch/switch.component.scss" />
+        <option value="$PROJECT_DIR$/fe/jest.config.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/be/webpack.config.js" />
+        <option value="$PROJECT_DIR$/fe/src/app/employees/employees/employee/employee.component.ts" />
+        <option value="$PROJECT_DIR$/.circleci/config.yml" />
+        <option value="$PROJECT_DIR$/sonar-project.properties" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -176,58 +221,36 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="be" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="fe" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="fe" type="462c0819:PsiDirectoryNode" />
-              <item name="hooks" type="462c0819:PsiDirectoryNode" />
+              <item name="fullstack-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fullstack-app" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/fe" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/@angular/cli" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="C:\Users\rchap\WebstormProjects\TEST\backend\be\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.1.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\rchap\WebstormProjects\TEST\fullstack-app\fe" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rchap\WebstormProjects\TEST\fullstack-app" />
       <recent name="C:\Users\rchap\WebstormProjects\TEST\backend" />
       <recent name="C:\Users\rchap\WebstormProjects\TEST\backend\fe" />
       <recent name="C:\Users\rchap\WebstormProjects\TEST\backend\be" />
@@ -246,6 +269,26 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="ThemeService" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/@angular/cli" />
+      <working-dir value="$PROJECT_DIR$/fe" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/fe/src/app/core/services/theme/theme.service.spec.ts" />
+      <test-names>
+        <test-name value="ThemeService" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.ThemeService" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -259,6 +302,8 @@
       <workItem from="1561558887428" duration="2128000" />
       <workItem from="1561971201923" duration="12891000" />
       <workItem from="1562063728963" duration="1776000" />
+      <workItem from="1562661108752" duration="7860000" />
+      <workItem from="1562671793893" duration="568000" />
     </task>
     <task id="LOCAL-00001" summary="add .dockerignore">
       <created>1562063815184</created>
@@ -270,27 +315,31 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="ThemeService - 2019.07.09 at 13h 21m 25s.xml">
+      <configuration name="ThemeService" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16795000" />
+    <option name="totallyTimeSpent" value="25223000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49947312" visible="true" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49947312" visible="true" weight="0.3900325" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50052685" side_tool="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Messages" order="12" />
@@ -314,43 +363,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@types/node/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="209" column="12" selection-start-line="209" selection-start-column="12" selection-end-line="209" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@types/node/index.d.ts" />
     <entry file="file://$PROJECT_DIR$/dist/be/app.js" />
     <entry file="file://$PROJECT_DIR$/dist/webpack.config.js" />
-    <entry file="file://$PROJECT_DIR$/node_modules/ts-loader/dist/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/models.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/schema/user.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1070">
-          <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/ts-loader/dist/index.js" />
+    <entry file="file://$PROJECT_DIR$/src/models/models.ts" />
+    <entry file="file://$PROJECT_DIR$/src/models/schema/user.ts" />
     <entry file="file://$PROJECT_DIR$/dist/bundle.js" />
-    <entry file="file://$PROJECT_DIR$/dist/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/be/src/middlewares/logger.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -397,10 +416,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/be/webpack.config.js">
+    <entry file="file://$PROJECT_DIR$/dist/public/index.html" />
+    <entry file="file://$PROJECT_DIR$/fe/hooks/index.html" />
+    <entry file="file://$PROJECT_DIR$/fe/package-lock.json" />
+    <entry file="file://$PROJECT_DIR$/be/package.json" />
+    <entry file="file://$PROJECT_DIR$/be/tsconfig.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        <state relative-caret-position="136">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -411,48 +434,137 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/angular.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-816">
+          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fe/tslint.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fe/src/app/shared/components/switch/switch.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="47" column="23" lean-forward="true" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fe/tsconfig.app.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fe/tsconfig.spec.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fe/src/app/shared/components/switch/switch.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fe/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fe/src/_settings.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fe/src/app/core/components/content/content.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fe/src/app/core/components/header/header.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fe/src/app/shared/components/switch/switch.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1241">
+          <caret line="73" column="8" selection-start-line="73" selection-start-column="8" selection-end-line="73" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fe/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/fe/jest.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fe/src/app/core/services/theme/theme.service.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/be/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/be/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+        <state relative-caret-position="419">
+          <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/be/src/app.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="459">
+          <caret line="27" column="49" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
           <folding>
             <element signature="e#51#80#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/public/index.html">
+    <entry file="file://$PROJECT_DIR$/dist/app.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fe/src/app/employees/employees/employee/employee.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="85">
+          <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fe/hooks/index.html">
+    <entry file="file://$PROJECT_DIR$/be/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="323">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sonar-project.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-522">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
         </state>
       </provider>
     </entry>

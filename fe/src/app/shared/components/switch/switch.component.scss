@@ -1,0 +1,77 @@
+.switch-wrap {
+  display: inline-block;
+  position: relative;
+  width: 35px;
+  border-radius: 35px;
+  background-color: black;
+  transition: background-color 225ms ease-out;
+  cursor: pointer;
+
+  .switch-indicator {
+    display: inline-block;
+    position: absolute;
+    width: 14px;
+    top: 1px;
+    bottom: 1px;
+    background-color: white;
+    border-radius: 35px;
+    animation-duration: 223ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+  }
+
+  &.checked {
+    background-color: white;
+
+    .switch-indicator {
+      background-color: black;
+      animation-name: checked;
+    }
+  }
+
+  &.unchecked {
+    background-color: black;
+
+    .switch-indicator {
+      background-color: white;
+      animation-name: unchecked;
+    }
+  }
+
+  .switch-input {
+    margin: 0;
+    height: 0;
+    width: 0;
+    visibility: hidden;
+  }
+}
+
+@keyframes checked {
+  0% {
+    left: 1px;
+  }
+
+  75% {
+    left: 13px;
+    width: 24px;
+  }
+
+  100% {
+    left: 20px;
+  }
+}
+
+@keyframes unchecked {
+  0% {
+    left: 20px;
+  }
+
+  70% {
+    left: 13px;
+    width: 24px;
+  }
+
+  100% {
+    left: 1px;
+  }
+}

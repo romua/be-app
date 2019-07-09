@@ -1,0 +1,46 @@
+@import "./../../../../settings";
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: white;
+  color: black;
+  height: $header-height;
+  transition: background-color 225ms cubic-bezier(0.82, -0.01, 0.17, 1.01);
+  position: relative;
+
+  &-center {
+    margin: auto;
+
+    &-item {
+
+      &:not(:last-child) {
+        margin-left: 0;
+        margin-right: 10px;
+      }
+    }
+  }
+
+  &-right {
+    position: absolute;
+    right: 17px;
+  }
+}
+
+:host-context(.theme-white) {
+
+  .navigation {
+    background-color: white;
+    color: black;
+  }
+}
+
+:host-context(.theme-black) {
+
+  .navigation {
+    background-color: black;
+    color: white;
+  }
+}
